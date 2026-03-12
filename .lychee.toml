@@ -1,0 +1,8 @@
+max_retries = 2
+retry_wait_time = 1
+insecure = false
+exclude = [
+  "^http://127.0.0.1",
+  "^http://localhost",
+  "^https://<YOUR_GITHUB_USERNAME>",
+]

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# MkDocs build output
+site/
+.cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
