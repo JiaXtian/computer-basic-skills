@@ -1,7 +1,7 @@
 site_name: 计算机基础技能文档站
 site_description: 从零基础到进阶的 Shell、Git、SSH、Docker 与工程实践教程
-site_url: https://<YOUR_GITHUB_USERNAME>.github.io/computer-basic-skills/
-repo_url: https://github.com/<YOUR_GITHUB_USERNAME>/computer-basic-skills
+site_url: https://JiaXtian.github.io/computer-basic-skills/
+repo_url: https://github.com/JiaXtian/computer-basic-skills
 repo_name: computer-basic-skills
 
 theme:
