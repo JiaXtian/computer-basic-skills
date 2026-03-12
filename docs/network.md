@@ -6,7 +6,7 @@ prerequisites: ["掌握基础 Linux 命令", "了解客户端与服务器概念"
 updated_at: 2026-03-13
 ---
 
-# 网络基础与故障诊断完整指南
+## 导读
 
 ![网络请求链路示意图](assets/diagrams/network-flow.svg)
 
@@ -82,6 +82,18 @@ openssl s_client -connect api.example.com:443 -servername api.example.com
 安全层面要强调最小暴露面：只开放必要端口，内网服务不对公网暴露，管理接口必须鉴权，TLS 证书按期轮换，安全组规则避免宽泛放行。你会发现，很多安全事故并非高深漏洞，而是基础网络策略失守。
 
 总结一下，网络排障最实用的方法不是记住最多命令，而是建立稳定流程：域名解析 -> 端口连通 -> 协议行为 -> 服务日志 -> 路由链路 -> 抓包验证。只要顺序固定，复杂问题也能逐层剥离。
+
+## 从慢请求到根因的排查路径
+
+“接口慢”是网络类问题中最常见但最容易误判的一类。建议先把一次请求拆成可测量阶段：DNS、TCP、TLS、服务处理、响应回传。只要其中一个阶段异常，就能把问题范围快速收敛。很多情况下慢点并不在网络链路，而在上游应用或数据库，必须结合服务日志和 APM 一起判断。
+
+```bash
+curl -s -o /dev/null \
+  -w 'dns=%{time_namelookup} tcp=%{time_connect} tls=%{time_appconnect} first=%{time_starttransfer} total=%{time_total}\n' \
+  https://api.example.com/health
+```
+
+如果 `time_starttransfer` 明显偏大而前置阶段正常，通常说明后端处理慢；如果 `time_connect` 偏大，则优先检查网络路径和端口；如果 `time_appconnect` 偏大，优先检查 TLS 配置或证书链。把耗时分解后，再决定是否抓包，可以避免大量无效分析。
 
 ## 常用命令与参数清单（可直接查阅）
 
