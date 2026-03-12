@@ -174,7 +174,7 @@ command -v awk grep sed >/dev/null || { echo "missing dependency"; exit 1; }
 
 ## 延伸阅读
 
-- [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
+- [Bash Man Page（man7）](https://man7.org/linux/man-pages/man1/bash.1.html)
 - [ShellCheck](https://www.shellcheck.net/)
 - [Explain Shell](https://explainshell.com/)
 - [The Linux Command Line](https://linuxcommand.org/tlcl.php)
