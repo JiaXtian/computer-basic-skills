@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="#0f172a"/>
+  <text x="60" y="70" fill="#e2e8f0" font-size="34" font-family="Arial">Shell 数据流模型：输入 -> 处理 -> 输出 -> 自动化</text>
+  <rect x="70" y="130" width="220" height="170" rx="16" fill="url(#g1)"/>
+  <text x="105" y="220" fill="#0b1220" font-size="28" font-family="Arial">命令输入</text>
+  <rect x="350" y="130" width="220" height="170" rx="16" fill="#38bdf8"/>
+  <text x="380" y="220" fill="#0b1220" font-size="28" font-family="Arial">管道处理</text>
+  <rect x="630" y="130" width="220" height="170" rx="16" fill="#34d399"/>
+  <text x="662" y="220" fill="#0b1220" font-size="28" font-family="Arial">结果输出</text>
+  <rect x="910" y="130" width="220" height="170" rx="16" fill="#facc15"/>
+  <text x="938" y="220" fill="#0b1220" font-size="28" font-family="Arial">脚本自动化</text>
+  <path d="M300 215 L340 215" stroke="#e2e8f0" stroke-width="6" marker-end="url(#a)"/>
+  <path d="M580 215 L620 215" stroke="#e2e8f0" stroke-width="6" marker-end="url(#a)"/>
+  <path d="M860 215 L900 215" stroke="#e2e8f0" stroke-width="6" marker-end="url(#a)"/>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#e2e8f0"/>
+    </marker>
+  </defs>
+</svg>

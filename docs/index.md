@@ -1,40 +1,37 @@
 ---
 title: 首页
-summary: 计算机基础技能文档站总览与学习入口
+summary: 计算机基础技能文档站导航页，聚焦完整长章节阅读
 level: beginner
-prerequisites: ["具备基础电脑操作能力"]
-updated_at: 2026-03-12
+prerequisites: ["无"]
+updated_at: 2026-03-13
 ---
 
 # 计算机基础技能文档站
 
-欢迎来到计算机基础技能系统教程。本站以 Markdown 为中心，强调“可执行、可验证、可回滚”的学习方式。
+欢迎使用这套面向新手与进阶读者的完整教程站点。整站采用“每种技术一个完整长章节”的结构，左侧为章节目录，章节内部通过小节导航上下滚动阅读，避免拆分过细导致内容碎片化。
 
-## 你将学到什么
+本站覆盖：
 
-- Shell：命令行基础、脚本自动化、多 Shell 差异
-- Git：版本控制、协作流程、历史修复与应急
-- SSH：密钥与安全、远程连接、端口转发
-- Docker：镜像构建、容器运行、Compose 编排
-- Linux/网络/CI：作为工程支撑模块
+- Shell 与 Bash/Zsh/Fish/PowerShell 的核心使用与脚本化能力
+- Git 的版本控制、协作流程与历史恢复
+- SSH 的认证原理、安全策略与转发实战
+- Docker 的镜像、容器、Compose、优化与排障
+- Linux 系统基础与一线运维方法
+- 网络诊断与链路定位
+- CI/CD 自动化发布与质量门禁
+- GitHub 从零上手到熟练协作
 
-## 学习原则
+## 阅读建议
 
-1. 先理解概念，再执行命令。
-2. 每一步都看预期输出。
-3. 每次操作都知道如何撤销。
-4. 用练习题检查是否真正掌握。
+建议按左侧顺序学习。每章都包含技术目标、原理解释、命令示例、参数说明、排障思路和延伸阅读。章节文字较长，适合按小节逐段学习并边读边操作。
 
-## 推荐学习顺序
+## 本地预览
 
-1. [学习路径](learning-path.md)
-2. Shell -> Git -> SSH -> Docker
-3. Linux 与网络基础
-4. CI/CD 与综合项目
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
 
-## 目录说明
-
-- `docs/labs/`：综合实验与毕业项目
-- `docs/cheatsheets/`：高频命令速查
-- `docs/standards/`：文档标准与写作规范
-- `docs/templates/`：统一章节模板
+打开 `http://127.0.0.1:8000` 即可浏览。

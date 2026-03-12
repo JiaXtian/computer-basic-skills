@@ -1,17 +1,17 @@
 site_name: 计算机基础技能文档站
-site_description: 从零基础到进阶的 Shell、Git、SSH、Docker 与工程实践教程
-site_url: https://JiaXtian.github.io/computer-basic-skills/
-repo_url: https://github.com/JiaXtian/computer-basic-skills
+site_description: 面向新手到进阶的 Shell、Git、SSH、Docker、Linux、网络、CI/CD 与 GitHub 完整教程
+site_url: https://<YOUR_GITHUB_USERNAME>.github.io/computer-basic-skills/
+repo_url: https://github.com/<YOUR_GITHUB_USERNAME>/computer-basic-skills
 repo_name: computer-basic-skills
 
 theme:
   name: material
   language: zh
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - toc.follow
+    - navigation.path
+    - toc.integrate
     - search.suggest
     - content.code.copy
 
@@ -37,48 +37,13 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 学习路径: learning-path.md
-  - 规范:
-      - 写作与标注规范: standards/style-guide.md
-      - 章节模板: guides/chapter-template.md
-      - 资源目录说明: assets/README.md
-  - Shell:
-      - 模块总览: shell/index.md
-      - L1 基础: shell/shell-l1-basics.md
-      - L2 进阶: shell/shell-l2-advanced.md
-      - L3 实战: shell/shell-l3-lab.md
-      - 排错手册: shell/shell-troubleshooting.md
-  - Git:
-      - 模块总览: git/index.md
-      - L1 基础: git/git-l1-basics.md
-      - L2 协作: git/git-l2-collab.md
-      - L3 实战: git/git-l3-lab.md
-      - 排错手册: git/git-troubleshooting.md
-  - SSH:
-      - 模块总览: ssh/index.md
-      - L1 基础: ssh/ssh-l1-basics.md
-      - L2 安全与转发: ssh/ssh-l2-security.md
-      - L3 实战: ssh/ssh-l3-lab.md
-      - 排错手册: ssh/ssh-troubleshooting.md
-  - Docker:
-      - 模块总览: docker/index.md
-      - L1 基础: docker/docker-l1-basics.md
-      - L2 Compose: docker/docker-l2-compose.md
-      - L3 实战: docker/docker-l3-lab.md
-      - 排错手册: docker/docker-troubleshooting.md
-  - Linux:
-      - 模块总览: linux/index.md
-  - 网络:
-      - 模块总览: network/index.md
-  - CI/CD:
-      - 模块总览: ci/index.md
-  - 实验与项目:
-      - 综合项目 A: labs/capstone-a.md
-      - 综合项目 B: labs/capstone-b.md
-  - 速查表:
-      - Shell 速查: cheatsheets/shell.md
-      - Git 速查: cheatsheets/git.md
-      - SSH 速查: cheatsheets/ssh.md
-      - Docker 速查: cheatsheets/docker.md
+  - Shell 与各类 Shell: shell.md
+  - Git 完整教程: git.md
+  - SSH 完整教程: ssh.md
+  - Docker 完整教程: docker.md
+  - Linux 基础与运维: linux.md
+  - 网络诊断与排障: network.md
+  - CI/CD 自动化发布: cicd.md
+  - GitHub 使用指南: github-guide.md
 
 strict: true

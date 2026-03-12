@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="24" fill="#0f172a"/>
+  <text x="60" y="70" fill="#f1f5f9" font-size="34" font-family="Arial">GitHub 协作流程：Issue -> Branch -> PR -> CI -> Deploy</text>
+  <rect x="60" y="130" width="190" height="180" rx="14" fill="#38bdf8"/>
+  <text x="118" y="230" fill="#0b1220" font-size="30" font-family="Arial">Issue</text>
+  <rect x="280" y="130" width="190" height="180" rx="14" fill="#4ade80"/>
+  <text x="328" y="230" fill="#0b1220" font-size="30" font-family="Arial">Branch</text>
+  <rect x="500" y="130" width="190" height="180" rx="14" fill="#facc15"/>
+  <text x="570" y="230" fill="#0b1220" font-size="30" font-family="Arial">PR</text>
+  <rect x="720" y="130" width="190" height="180" rx="14" fill="#f59e0b"/>
+  <text x="787" y="230" fill="#0b1220" font-size="30" font-family="Arial">CI</text>
+  <rect x="940" y="130" width="190" height="180" rx="14" fill="#fb7185"/>
+  <text x="992" y="230" fill="#0b1220" font-size="30" font-family="Arial">Deploy</text>
+  <path d="M252 220 L276 220" stroke="#f1f5f9" stroke-width="6"/>
+  <path d="M472 220 L496 220" stroke="#f1f5f9" stroke-width="6"/>
+  <path d="M692 220 L716 220" stroke="#f1f5f9" stroke-width="6"/>
+  <path d="M912 220 L936 220" stroke="#f1f5f9" stroke-width="6"/>
+</svg>

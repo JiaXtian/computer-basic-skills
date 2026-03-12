@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="24" fill="#111827"/>
+  <text x="60" y="70" fill="#f9fafb" font-size="34" font-family="Arial">Docker 交付链路：Dockerfile -> Image -> Container -> Compose</text>
+  <rect x="80" y="120" width="220" height="230" rx="18" fill="#60a5fa"/>
+  <text x="112" y="240" fill="#0b1220" font-size="30" font-family="Arial">Dockerfile</text>
+  <rect x="360" y="120" width="220" height="230" rx="18" fill="#34d399"/>
+  <text x="432" y="240" fill="#0b1220" font-size="30" font-family="Arial">Image</text>
+  <rect x="640" y="120" width="220" height="230" rx="18" fill="#fbbf24"/>
+  <text x="690" y="240" fill="#0b1220" font-size="30" font-family="Arial">Container</text>
+  <rect x="920" y="120" width="220" height="230" rx="18" fill="#f472b6"/>
+  <text x="980" y="240" fill="#0b1220" font-size="30" font-family="Arial">Compose</text>
+  <path d="M300 235 L350 235" stroke="#f9fafb" stroke-width="6"/>
+  <path d="M580 235 L630 235" stroke="#f9fafb" stroke-width="6"/>
+  <path d="M860 235 L910 235" stroke="#f9fafb" stroke-width="6"/>
+</svg>

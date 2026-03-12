@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="24" fill="#111827"/>
+  <text x="60" y="70" fill="#f3f4f6" font-size="34" font-family="Arial">Git 协作流：分支开发 -> PR 评审 -> 合并发布 -> 回滚保障</text>
+  <rect x="60" y="120" width="250" height="220" rx="16" fill="#60a5fa"/>
+  <text x="105" y="235" fill="#0b1220" font-size="30" font-family="Arial">feature/*</text>
+  <rect x="340" y="120" width="250" height="220" rx="16" fill="#34d399"/>
+  <text x="425" y="235" fill="#0b1220" font-size="30" font-family="Arial">PR</text>
+  <rect x="620" y="120" width="250" height="220" rx="16" fill="#fbbf24"/>
+  <text x="702" y="235" fill="#0b1220" font-size="30" font-family="Arial">main</text>
+  <rect x="900" y="120" width="240" height="220" rx="16" fill="#f87171"/>
+  <text x="952" y="235" fill="#0b1220" font-size="30" font-family="Arial">revert</text>
+  <path d="M310 230 L335 230" stroke="#f3f4f6" stroke-width="6"/>
+  <path d="M590 230 L615 230" stroke="#f3f4f6" stroke-width="6"/>
+  <path d="M870 230 L895 230" stroke="#f3f4f6" stroke-width="6"/>
+</svg>

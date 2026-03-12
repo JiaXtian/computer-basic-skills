@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="24" fill="#111827"/>
+  <text x="60" y="70" fill="#f3f4f6" font-size="34" font-family="Arial">Linux 运行模型：文件系统 -> 权限 -> 进程 -> 服务 -> 日志</text>
+  <rect x="70" y="140" width="190" height="170" rx="14" fill="#60a5fa"/>
+  <rect x="290" y="140" width="190" height="170" rx="14" fill="#34d399"/>
+  <rect x="510" y="140" width="190" height="170" rx="14" fill="#facc15"/>
+  <rect x="730" y="140" width="190" height="170" rx="14" fill="#f97316"/>
+  <rect x="950" y="140" width="190" height="170" rx="14" fill="#f43f5e"/>
+  <text x="98" y="238" fill="#0b1220" font-size="28" font-family="Arial">文件系统</text>
+  <text x="340" y="238" fill="#0b1220" font-size="28" font-family="Arial">权限</text>
+  <text x="560" y="238" fill="#0b1220" font-size="28" font-family="Arial">进程</text>
+  <text x="785" y="238" fill="#0b1220" font-size="28" font-family="Arial">服务</text>
+  <text x="1015" y="238" fill="#0b1220" font-size="28" font-family="Arial">日志</text>
+</svg>
