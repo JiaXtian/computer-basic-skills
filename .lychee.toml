@@ -1,5 +1,7 @@
-max_retries = 2
-retry_wait_time = 1
+max_retries = 3
+retry_wait_time = 3
+timeout = 30
+max_concurrency = 4
 insecure = false
 accept = [200, 201, 202, 204, 206, 301, 302, 303, 307, 308, 403, 429]
 exclude = [

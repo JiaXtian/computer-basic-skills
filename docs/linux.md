@@ -6,34 +6,6 @@
 
 ---
 
-## 目录
-
-**Linux 基础篇**
-1. [Linux 是什么，为什么要学它](#1-linux-是什么为什么要学它)
-2. [目录结构：Linux 的文件系统布局](#2-目录结构linux-的文件系统布局)
-3. [文件操作：增删改查与导航](#3-文件操作增删改查与导航)
-4. [权限模型：读懂并控制文件访问](#4-权限模型读懂并控制文件访问)
-5. [用户与用户组管理](#5-用户与用户组管理)
-6. [进程管理：查看、控制与诊断](#6-进程管理查看控制与诊断)
-7. [服务管理：systemd 与 systemctl](#7-服务管理systemd-与-systemctl)
-8. [软件包管理：安装与维护软件](#8-软件包管理安装与维护软件)
-9. [磁盘与内存：资源监控与诊断](#9-磁盘与内存资源监控与诊断)
-10. [网络基础：查看状态与连通性测试](#10-网络基础查看状态与连通性测试)
-11. [日志系统：用 journalctl 和日志文件排错](#11-日志系统用-journalctl-和日志文件排错)
-
-**Shell 编程篇**
-12. [Shell 是什么：命令行的运行环境](#12-shell-是什么命令行的运行环境)
-13. [变量、引号与字符串操作](#13-变量引号与字符串操作)
-14. [输入输出重定向与管道](#14-输入输出重定向与管道)
-15. [条件判断与流程控制](#15-条件判断与流程控制)
-16. [循环：批量处理的利器](#16-循环批量处理的利器)
-17. [函数与脚本结构](#17-函数与脚本结构)
-18. [文本处理三件套：grep、sed、awk](#18-文本处理三件套grepsedawk)
-19. [Shell 脚本实战：从零写一个部署脚本](#19-shell-脚本实战从零写一个部署脚本)
-20. [命令速查总表](#20-命令速查总表)
-21. [延伸阅读](#21-延伸阅读)
-
----
 
 # Linux 基础篇
 
@@ -1819,11 +1791,11 @@ log_info "Deployment completed successfully: $APP_NAME $VERSION → $ENV"
 
 - [**Linux man-pages**](https://man7.org/linux/man-pages/)：所有 Linux 命令和系统调用的权威手册，用 `man command` 在本地查阅
 - [**The Linux Documentation Project (TLDP)**](https://tldp.org/)：大量 Linux 学习指南和 HOWTO 文档，适合系统性学习
-- [**Linux Command（命令手册）**](https://linuxcommand.org/)：面向新手的 Linux 命令学习资源
+- [**GNU Coreutils 手册**](https://www.gnu.org/software/coreutils/manual/)：常用 Linux 基础命令（如 `cp`、`mv`、`ls`、`cat`）的官方参考
 
 ### systemd
 
-- [**systemd 官方文档**](https://www.freedesktop.org/software/systemd/man/)：systemctl、journalctl、Unit 文件格式的完整参考
+- [**systemctl 手册（man7）**](https://man7.org/linux/man-pages/man1/systemctl.1.html)：systemctl、journalctl、Unit 文件相关操作的权威手册入口
 - [**systemd by Example**](https://systemd-by-example.com/)：通过大量实例理解 systemd 各组件
 
 ### Shell 脚本

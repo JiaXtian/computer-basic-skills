@@ -6,25 +6,6 @@
 
 ---
 
-## 目录
-
-1. [SSH 是什么，用来干什么](#1-ssh-是什么用来干什么)
-2. [SSH 的工作原理：连接背后发生了什么](#2-ssh-的工作原理连接背后发生了什么)
-3. [安装与环境准备](#3-安装与环境准备)
-4. [密钥对：SSH 认证的核心](#4-密钥对ssh-认证的核心)
-5. [基础连接：第一次登录远程主机](#5-基础连接第一次登录远程主机)
-6. [SSH Config：让复杂连接变简单](#6-ssh-config让复杂连接变简单)
-7. [ssh-agent：免重复输入密码短语](#7-ssh-agent免重复输入密码短语)
-8. [跳板机与多级跳转：ProxyJump](#8-跳板机与多级跳转proxyjump)
-9. [端口转发：SSH 的隧道能力](#9-端口转发ssh-的隧道能力)
-10. [SSH 与 Git：在 GitHub 等平台使用密钥](#10-ssh-与-git在-github-等平台使用密钥)
-11. [多账号管理：同一台机器使用多套密钥](#11-多账号管理同一台机器使用多套密钥)
-12. [服务端安全加固：sshd_config](#12-服务端安全加固sshd_config)
-13. [排错与诊断：遇到问题怎么办](#13-排错与诊断遇到问题怎么办)
-14. [命令速查总表](#14-命令速查总表)
-15. [延伸阅读](#15-延伸阅读)
-
----
 
 ## 1. SSH 是什么，用来干什么
 
@@ -1131,7 +1112,7 @@ nc -zv host 22                        # 测试端口连通性
 
 ### 官方文档
 
-- [**OpenSSH 官方文档**](https://www.openssh.com/manual.html)：`ssh`、`scp`、`sftp`、`ssh-keygen`、`sshd_config` 所有命令的权威参考手册
+- [**OpenSSH 命令手册（man）**](https://man.openbsd.org/ssh)：`ssh`、`scp`、`sftp`、`ssh-keygen`、`sshd_config` 相关命令的权威参考入口
 - [**ssh_config 手册（man 页）**](https://man.openbsd.org/ssh_config)：客户端配置文件所有参数的完整说明
 - [**sshd_config 手册**](https://man.openbsd.org/sshd_config)：服务端配置文件所有参数的完整说明
 

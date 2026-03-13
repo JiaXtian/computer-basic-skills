@@ -6,42 +6,6 @@
 
 ---
 
-## 目录
-
-**Docker 基础篇**
-1. [Docker 是什么，解决了什么问题](#1-docker-是什么解决了什么问题)
-2. [核心概念：镜像、容器、仓库](#2-核心概念镜像容器仓库)
-3. [安装与初始配置](#3-安装与初始配置)
-4. [容器的生命周期管理](#4-容器的生命周期管理)
-5. [镜像管理：拉取、查看与清理](#5-镜像管理拉取查看与清理)
-
-**Dockerfile 篇**
-6. [编写 Dockerfile：从零构建镜像](#6-编写-dockerfile从零构建镜像)
-7. [多阶段构建：减小镜像体积](#7-多阶段构建减小镜像体积)
-8. [Dockerfile 最佳实践与性能优化](#8-dockerfile-最佳实践与性能优化)
-
-**数据与网络篇**
-9. [数据持久化：Volume 与 Bind Mount](#9-数据持久化volume-与-bind-mount)
-10. [容器网络：服务间通信](#10-容器网络服务间通信)
-
-**Docker Compose 篇**
-11. [Docker Compose：多容器编排](#11-docker-compose多容器编排)
-12. [Compose 进阶：健康检查、依赖与环境管理](#12-compose-进阶健康检查依赖与环境管理)
-
-**安全与运维篇**
-13. [容器安全：不容忽视的基础实践](#13-容器安全不容忽视的基础实践)
-14. [资源限制与运行稳定性](#14-资源限制与运行稳定性)
-15. [排错指南：系统化诊断容器问题](#15-排错指南系统化诊断容器问题)
-16. [镜像仓库：推送与分发](#16-镜像仓库推送与分发)
-
-**Kubernetes 入门篇**
-17. [Kubernetes 是什么：从 Docker 到集群编排](#17-kubernetes-是什么从-docker-到集群编排)
-18. [Kubernetes 核心概念与资源对象](#18-kubernetes-核心概念与资源对象)
-19. [kubectl：与集群交互的命令行工具](#19-kubectl与集群交互的命令行工具)
-20. [命令速查总表](#20-命令速查总表)
-21. [延伸阅读](#21-延伸阅读)
-
----
 
 # Docker 基础篇
 
@@ -1429,7 +1393,7 @@ kubectl config set-context --current --namespace=production
 
 ### Kubernetes
 - [Kubernetes 官方文档（中文）](https://kubernetes.io/zh-cn/docs/home/)：K8s 完整中文文档
-- [kubectl 速查表](https://kubernetes.io/zh-cn/docs/reference/kubectl/cheatsheet/)：官方 kubectl 常用命令汇总
+- [kubectl 速查表](https://kubernetes.io/zh-cn/docs/reference/kubectl/quick-reference/)：官方 kubectl 常用命令汇总
 - [Kubernetes 互动教程](https://kubernetes.io/zh-cn/docs/tutorials/kubernetes-basics/)：无需本地安装的浏览器交互教程
 
 ### 工具生态
