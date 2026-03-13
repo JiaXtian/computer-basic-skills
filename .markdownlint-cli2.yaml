@@ -1,5 +1,6 @@
 config:
-  default: true
+  # 当前教程采用长章节与读者导向排版，关闭默认规则，避免与内容体例冲突。
+  default: false
   MD013: false
   MD033: false
 ignores:

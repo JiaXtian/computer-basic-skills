@@ -1,8 +1,8 @@
 site_name: 计算机基础技能文档站
-site_description: 面向新手到进阶的 Shell、Git、SSH、Docker、Linux、网络、CI/CD 与 GitHub 完整教程
-site_url: https://<YOUR_GITHUB_USERNAME>.github.io/computer-basic-skills/
-repo_url: https://github.com/<YOUR_GITHUB_USERNAME>/computer-basic-skills
-repo_name: computer-basic-skills
+site_description: 面向读者的系统化计算机基础技能教程，覆盖 Git、SSH、Docker、Linux、网络、Python 与 GitHub
+site_url: https://jiaxtian.github.io/computer-basic-skills/
+repo_url: https://github.com/JiaXtian/computer-basic-skills
+repo_name: JiaXtian/computer-basic-skills
 
 theme:
   name: material
@@ -37,13 +37,12 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - Shell 与各类 Shell: shell.md
-  - Git 完整教程: git.md
-  - SSH 完整教程: ssh.md
-  - Docker 完整教程: docker.md
-  - Linux 基础与运维: linux.md
-  - 网络诊断与排障: network.md
-  - CI/CD 自动化发布: cicd.md
+  - Git 完整指南: git.md
+  - SSH 完整指南: ssh.md
+  - Docker 完整指南: docker.md
+  - Linux 与 Shell 指南: linux.md
+  - 网络故障诊断指南: network.md
+  - Python 完整指南: python.md
   - GitHub 使用指南: github-guide.md
 
 strict: true

@@ -1,8 +1,9 @@
 max_retries = 2
 retry_wait_time = 1
 insecure = false
+accept = [200, 201, 202, 204, 206, 301, 302, 303, 307, 308, 403, 429]
 exclude = [
   "^http://127.0.0.1",
   "^http://localhost",
-  "^https://<YOUR_GITHUB_USERNAME>",
+  "^https://jiaxtian.github.io/computer-basic-skills/?$",
 ]
