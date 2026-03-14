@@ -8,4 +8,5 @@ exclude = [
   "^http://127.0.0.1",
   "^http://localhost",
   "^https://jiaxtian.github.io/computer-basic-skills/?$",
+  "^https://jiaxtian.github.io/computer-basic-skills/(ML|RL|DL|LLM)/?$",
 ]

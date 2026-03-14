@@ -1,5 +1,5 @@
 site_name: 计算机基础技能文档站
-site_description: 面向读者的系统化计算机基础技能教程，覆盖 Git、SSH、Docker、Linux、网络、Python 与 GitHub
+site_description: 面向读者的系统化计算机与 AI 基础技能教程，覆盖 Git、SSH、Docker、Linux、网络、Python、机器学习、强化学习、深度学习、LLM 与 GitHub
 site_url: https://jiaxtian.github.io/computer-basic-skills/
 repo_url: https://github.com/JiaXtian/computer-basic-skills
 repo_name: JiaXtian/computer-basic-skills
@@ -43,6 +43,10 @@ nav:
   - Linux 与 Shell 指南: linux.md
   - 网络故障诊断指南: network.md
   - Python 完整指南: python.md
+  - 机器学习完整指南: ML.md
+  - 强化学习完整指南: RL.md
+  - 深度学习完整指南: DL.md
+  - 大语言模型完整指南: LLM.md
   - GitHub 使用指南: github-guide.md
 
 strict: true
